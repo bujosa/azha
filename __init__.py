@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-import ChatGPT
+import openai as ChatGPT
 import constants
 
 app = Flask(__name__)
