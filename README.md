@@ -23,7 +23,7 @@ python __init__.py
 1. Go to [Openai Platform](https://platform.openai.com/account/api-keys) and create the new secret key.
 2. Put this key in constants.py file.
 
-![Alt text](images/image.png)
+   ![Alt text](images/image.png)
 
 ```python
 OPENAI_API_KEY = "YOUR_API_KEY"
@@ -36,6 +36,7 @@ OPENAI_API_KEY = "YOUR_API_KEY"
 3. Add name and email to the test user.
 4. Go the WhatsApp Configuration and add the webhook url and the token.
 5. You can have your temporal token for send message to the user look the next image.
+
    ![Alt text](images/image2.png)
 
 ### (Optional) hosting the server
