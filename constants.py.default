@@ -1,5 +1,10 @@
 # Replace with your own OpenAI API Key https://platform.openai.com/account/api-keys
 # and rename this file to constants.py.
 OPENAI_API_KEY= 
+
 # Replace this with your own Verify Token
 VERIFY_TOKEN=
+
+# Replace this with Api token obtained from facebook developers
+FACEBOOK_TOKEN=
+NUMBER_IDENTIFIER=
