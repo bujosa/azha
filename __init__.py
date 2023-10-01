@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-import openai as ChatGPT
+import prompt
 import constants
 
 app = Flask(__name__)
@@ -17,7 +17,7 @@ def webhook_whatsapp():
     message=data['entry'][0]['changes'][0]['value']['messages'][0]['text']['body']
 
     if message is not None:
-        res = ChatGPT.get_response(message)
+        res = prompt.get_response(message)
         res=res.replace("\\n","\\\n")
         res=res.replace("\\","")
         f = open("text.txt", "w")

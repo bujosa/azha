@@ -6,6 +6,7 @@ openai.api_key = constants.OPENAI_API_KEY
 model_engine = "text-davinci-003"
 
 def get_response(prompt) -> str:
+    
     completion = openai.Completion.create(engine=model_engine,
                                         prompt=prompt,
                                         max_tokens=1024,
