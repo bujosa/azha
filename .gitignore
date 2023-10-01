@@ -1,3 +1,6 @@
+# vitualenv
+azha
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -123,6 +126,7 @@ celerybeat.pid
 .env
 .venv
 env/
+constants.py
 venv/
 ENV/
 env.bak/
