@@ -2,3 +2,4 @@ openai==0.28.1
 Flask==3.0.0
 jsonify==0.5
 requests==2.31.0
+heyoo==0.1.0
