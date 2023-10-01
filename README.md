@@ -35,6 +35,8 @@ OPENAI_API_KEY = "YOUR_API_KEY"
 2. Select the category of the application in this case is Business and give it a name.
 3. Add name and email to the test user.
 4. Go the WhatsApp Configuration and add the webhook url and the token.
+5. You can have your temporal token for send message to the user look the next image.
+   ![Alt text](images/image2.png)
 
 ### (Optional) hosting the server
 
